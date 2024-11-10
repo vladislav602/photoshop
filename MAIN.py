@@ -81,16 +81,16 @@ def show_images(self):
 app = QApplication([])
 app.setStyleSheet("""
          QWidget {
-             background-color:  #00ff66;
+             background-color:  #DA70D6;
          }
 
 
         QPushButton
         {
-        background-color: #66ff00;
+        background-color: #FFFFFF;
         border-style: outset;
-        font-family; Roboto;
-        main-width: 6em:
+        font-family: Roboto;
+        main-width: 6em;
         }
 """)
 window = QWidget()
